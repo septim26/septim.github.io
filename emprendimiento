@@ -1,0 +1,233 @@
+¿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인디언 헤어</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white; 
+        }
+    
+        header {
+            background-color: #f1f0a9;
+            color: rgb(0, 0, 0);
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        header h1 {
+            margin: 0;
+            margin-right: 20px;
+        }
+        img {
+            max-width: 200px;
+            height: auto;
+            margin-top: 20px;
+        }
+        section {
+            margin: 40px;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
+        .contact-section {
+            text-align: center;
+            margin: 40px; 
+            padding: 20px;
+            border-top: 2px solid #ddd; 
+        }
+        .contact-section a {
+            text-decoration: none; 
+            color: #f1f0a9; 
+            font-weight: bold;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 40px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            section {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>인디언 헤어</h1>
+        <img src="manos.jpg" alt="Lo hermoso se encuentra en lo artesanal">
+
+    </header>
+
+<section>
+    <p><em>Bienvenido a 인디언 헤어, donde la creatividad y la pasión se unen para crear collares artesanales únicos y exclusivos.
+        Nuestros diseños son inspirados en la belleza natural y la elegancia, estos collares estan hechos con amor y dedicación,
+        todo esto para que puedas lucir tu estilo personal con nuestros modestos diseños que le daran un toque unico a tu estilo.</em></p>
+
+        <p><em>a continuacion conoceras un poco mas acerca de nuestra empresa 100% artesanal y lo que este trabajo significa para nosotros
+            nuevamente. bienvenido a  인디언 헤어</em></p>
+
+</section>
+
+<section>
+    <h2>Misión</h2>
+    <p><em>crear collares unicos y de alta calidad que reflejan la belleza, la creatividad, y la unico de nuestras tradiciones artesanales.
+        ofreciendo a nuestros clientes una calidad excepcional que complementen en cuanto apariencia personal y promoviendo el trabajo de lo artesanal</em></p>
+</section>
+
+<section>
+    <h2>Visión</h2>
+    <p><em>convertirnos en una empresa reconocida a nivel nacional e internacional, por la excelencia en la calidad de nuestros collares.
+    siendo lideres en la promocion de la cultura local y contribuyendp a un desarrollo sostenible de las comunidades artesanales.</em></p>
+</section>
+
+<!-- Sección del video -->
+<div class="video-container">
+    <iframe width="500" height="550" src="https://www.youtube.com/embed/To_Ed-wOhl8?si=5y5pyq-6B12LFRJx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<section>
+    <table style="width: 100%; margin: 40px auto; border-collapse: collapse; text-align: center; background-color: rgba(255, 255, 255, 0.1); border-radius: 5px;">
+        <thead>
+            <tr>
+                <th style="padding: 10px; border: 1px solid #ddd;">Materiales</th>
+                <th style="padding: 10px; border: 1px solid #ddd;">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;">8 metros de hilo tipo nailo</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">$10.000</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;">paquete de caracolas</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">$15.000</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;">paquete de perlas</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">$20.000</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;">materiales adicionales</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">$8.000</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;" colspan="2"><strong>Total: $53.000</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section class="contact-section">
+    <h2>Contáctanos</h2>
+    <p>para nuestra empresa es importante saber tus opiniones. no dudes en escribirnos si tienes alguna recomendacion o agradecimiento:</p>
+    <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=edwindeviarod@gmail.com">edwindeviarod@gmail.com</a></p>
+
+</section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
